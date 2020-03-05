@@ -169,4 +169,3 @@ elif [ "$download" -eq "2"  ]; then
 else :
  bash Amer.sh
 fi
-
