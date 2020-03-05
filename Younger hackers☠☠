@@ -8,7 +8,6 @@ echo "[2] DownloadYounger hackers versions {5.0.0}"
 echo ""
 echo -e "$p"
 read -p  "number-------> " download
-
 if [ "$download" -eq "1"  ]; then
  cd
  clear
@@ -93,10 +92,8 @@ if [ "$download" -eq "1"  ]; then
  echo -e "     $p     new "
  echo -e "     $g         Update "
  sleep 2 
-
  cd $HOME/Youngerhackers
  python2 Youngerhackers.py
-
 elif [ "$download" -eq "2"  ]; then
  cd
  clear
