@@ -10,7 +10,7 @@ os.system ("pkg install java -y")
 os.system (" pkg install ruby -y")
 os.system ("pkg install help -y")
 os.system ("pkg install git -y")
-os.system ("pkg install git -y
+os.system ("pkg install git -y")
 os.system ("pkg install host -y
 os.system ("pkg install php -y
 os.system ("pkg install perl -y 
