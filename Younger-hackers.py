@@ -110,5 +110,3 @@ if number == "7" :
     os.system("python theZoo.py ")
 if number == "8" :
     os.system("exit")
-else:
-    print ("wrong number")
