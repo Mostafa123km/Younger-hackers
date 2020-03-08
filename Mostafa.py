@@ -11,15 +11,15 @@ os.system (" pkg install ruby -y")
 os.system ("pkg install help -y")
 os.system ("pkg install git -y")
 os.system ("pkg install git -y")
-os.system ("pkg install host -y
-os.system ("pkg install php -y
-os.system ("pkg install perl -y 
-os.system (" install nmap -y
-os.system (" pkg install bash -y
-os.system ("pkg install clang -y
-os.system (" pkg install nano -y
-os.system (" pkg install w3m -y
-os.system (" install havij -y ")
+os.system ("pkg install host -y")
+os.system ("pkg install php -y")
+os.system ("pkg install perl -y")
+os.system (" install nmap -y")
+os.system (" pkg install bash -y")
+os.system ("pkg install clang -y")
+os.system (" pkg install nano -y")
+os.system (" pkg install w3m -y")
+os.system (" install havij -y")
 os.system ("pkg install hydra -y ")
 os.system (" pkg install figlet -y ")
 os.system (" pkg install cowsay -y ")
