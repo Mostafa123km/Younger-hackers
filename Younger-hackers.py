@@ -1,6 +1,5 @@
 import os
 os.system ("clear")
-os.system ("cd")
 os.system ("pkg update -y")
 os.system ("pkg upgrade -y")
 os.system ("pkg install python -y")
@@ -52,4 +51,3 @@ os.system (" pkg install wireshark -y ")
 os.system (" termux-setup-storage -y")
 os.system (" pkg install macchanger -y ")
 os.system (" apt  && apt upgrade -y ")
-os.system ("clear")
