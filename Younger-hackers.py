@@ -110,5 +110,3 @@ elif number == "7" :
     os.system("python theZoo.py ")
 elif number == "8" :
     os.system("exit")
-leif:
-    print ("wrong number")
